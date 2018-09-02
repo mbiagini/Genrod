@@ -1,0 +1,69 @@
+<resources>
+    <!-- activity names -->
+    <string name="app_name">PedidosV2</string>
+    <string name="title_activity_request_order">Buscar pedido</string>
+    <string name="title_activity_order">Pedido</string>
+
+    <!-- MainActivity texts -->
+    <string name="login_username_title">Usuario</string>
+    <string name="login_username_hint">Usuario</string>
+    <string name="login_password_title">Contraseña</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_register_button_text">Registrarse</string>
+
+    <!-- MainActivity errors -->
+    <string name="login_error_pass_user">Error en los datos ingresados.</string>
+    <string name="login_error_user">El campo "Usuario" es obligatorio.</string>
+    <string name="login_error_pass">El campo "Contraseña" es obligatorio.</string>
+
+    <!-- General errors -->
+    <string name="error_no_internet">Verifique su conexión a internet.</string>
+    <string name="error_conection_failed">Ocurrió un error, intente de nuevo más tarde.</string>
+
+    <!-- orderActivity texts -->
+    <string name="products_list_title">Productos</string>
+    <string name="product_detail_client">Cliente</string>
+    <string name="product_detail_client_name">Nombre cliente</string>
+    <string name="product_detail_seller">Vendedor</string>
+    <string name="product_detail_audit_log_user">AuditLogUser</string>
+    <string name="product_detail_order_type">Tipo orden</string>
+    <string name="order_title">Pedido</string>
+    <!-- ListItem texts -->
+    <string name="product_item_position_number">N°</string>
+    <string name="product_item_code">Código</string>
+    <string name="product_item_description">Descripción</string>
+    <string name="product_item_amount">Cantidad</string>
+    <string name="product_item_motive">Motivo</string>
+    <string name="product_item_detail_location">Ubicación</string>
+    <string name="product_item_detail_alternative">Alternativo</string>
+    <string name="product_item_amount_hint">Cantidad</string>
+    <string name="product_spinner_prompt">Opciones</string>
+    <string-array name="product_spinner_options">
+        <item>Ninguno</item>
+        <item>Motivo A</item>
+        <item>Motivo B</item>
+        <item>Motivo C</item>
+    </string-array>
+
+    <!-- requestOrderActivity texts -->
+    <string name="order_number_title">Número de pedido</string>
+    <string name="order_number_hint">Número de 6 dígitos</string>
+    <string name="order_number_button">Buscar</string>
+    <string name="order_number_error_lenght">Ingrese un número de 6 dígitos.</string>
+
+    <!-- Strings related to login -->
+    <string name="hint_user">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="action_sign_in">Registrarse</string>
+    <string name="error_incorrect_password">Contraseña inválida</string>
+    <string name="error_invalid_password">Contraseña muy corta</string>
+
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
